@@ -48,7 +48,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #63A687 url(../imagens/pexels-dids-2911521.jpg) no-repeat;
+    background: #2E2963 url(../imagens/pexels-dids-2911521.jpg) no-repeat;
     background-size: cover;
     background-position: right ;
     height: 200px;
@@ -67,4 +67,53 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
+form > div.campo {
+    background-color:#061B3A ;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+div.campo > label {
+    display: none;
+}
 
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:#D991B9;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #b45f8d;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #b45f8d;
+    border: 1px solid #79264e;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #ffd4e9;
+}
+
+form > a.botao > span {
+    font-size: 0.8em;
+}
